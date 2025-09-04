@@ -1,0 +1,39 @@
+# Fichier .gitignore pour le projet d'analyse de copules
+
+# --- Données brutes et volumineuses ---
+# Ne jamais envoyer les données brutes sur GitHub.
+SWI_Package_1969-2024/
+
+# --- Environnement virtuel Python ---
+# Ce dossier est spécifique à la machine de chaque utilisateur.
+venv/
+env/
+.env
+
+# --- Fichiers de cache et compilés Python ---
+# Ces fichiers sont générés automatiquement et n'ont pas besoin d'être versionnés.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Dossiers de configuration de l'éditeur/IDE ---
+# Ignore les paramètres spécifiques à l'environnement de développement de chaque utilisateur.
+.vscode/
+.idea/
+.spyder-py3/
+
+# --- Fichiers générés par Jupyter Notebook ---
+# Les checkpoints sont des sauvegardes automatiques inutiles pour le dépôt.
+.ipynb_checkpoints/
+
+# --- Dossiers de résultats (Optionnel mais recommandé) ---
+# Si vos résultats (CSV) ou figures (PNG) sont volumineux ou
+# peuvent être regénérés par le notebook, il est bon de les ignorer.
+# Si vous voulez les montrer sur GitHub, vous pouvez commenter ces lignes.
+simulation_results_multicopula_adapted_lambda.csv
+/figures/
+
+# Fichiers de système d'exploitation
+.DS_Store
+Thumbs.db 
