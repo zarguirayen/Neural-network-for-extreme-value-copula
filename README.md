@@ -74,7 +74,7 @@ The repository is organized as follows to ensure clarity and reproducibility:
 │
 ├── figures/                   # Directory for saved plots and figures from the analysis.
 │
-├── results/                   # Directory for simulation output files (e.g., CSVs).
+├── simulation_results_multicopula_adapted_lambda.csv                   # simulation output CSV.
 │
 ├── analysis.ipynb             # The main Jupyter Notebook containing all code, analysis, and visualizations.
 │
@@ -86,7 +86,7 @@ The repository is organized as follows to ensure clarity and reproducibility:
 ```
 - **`analysis.ipynb`**: This is the central file of the project. It contains all the Python code for the simulations, the real-data application, and generates all the figures and tables presented in the paper.
 - **`SWI_Package_1969-2024/`**: This folder is intended to hold the raw `.csv` files from Météo-France. As it contains large data files, it is recommended to add it to your `.gitignore` file.
-- **`figures/` and `results/`**: These folders are automatically created (if they don't exist) by the notebook to store the outputs, keeping the project organized.
+- **`figures/` and `simulation_results_multicopula_adapted_lambda.csv `**: The folder and this file are automatically created (if they don't exist) by the notebook to store the outputs, keeping the project organized.
 - **`requirements.txt`**: This file allows anyone to replicate the exact Python environment used for this analysis by running `pip install -r requirements.txt`.
 ## Reproducing the Results
 
