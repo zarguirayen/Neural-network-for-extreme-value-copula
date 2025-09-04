@@ -1,5 +1,11 @@
-# Neural-network-for-extreme-value-copula
-This repository contains the complete Python code and analysis pipeline for the paper. The project introduces and validates a novel semi-parametric methodology for estimating the Pickands dependence function of bivariate extreme value copulas using a purpose-built neural network.
+# Neural Network Estimation of Pickands Dependence Functions
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+This repository contains the complete Python code and analysis pipeline for the paper: **"Estimation of Pickands Functions for Extreme-Value Copulas via Neural Networks: A Comparative Study on Gumbel, Galambos and Tawn"**.
+
+The project introduces and validates a novel semi-parametric methodology for estimating the Pickands dependence function of bivariate extreme value copulas using a purpose-built neural network.
+
 ## Key Features
 
 - **Theoretically-Grounded Neural Network:** Implements a `PickandsNN` model whose architecture is based on the log-sum-exp representation for approximating convex functions.
@@ -56,6 +62,19 @@ The entire analysis is contained within the `analysis.ipynb` Jupyter Notebook.
     ```bash
     jupyter notebook
     ```
+
+2.  **Open `analysis.ipynb`** and run the cells in order from top to bottom.
+
+## Project Structure
+.
+├── SWI_Package_1969-2024/ # Folder for the raw Météo-France data (add to .gitignore)
+├── analysis.ipynb # The main Jupyter Notebook containing all code and analysis.
+├── figures/ # Directory where output plots are saved.
+├── results/ # Directory where simulation result CSV files are saved.
+├── requirements.txt # List of Python dependencies for easy installation.
+└── README.md # This file.
+code
+Code
 ## Reproducing the Results
 
 To reproduce the results presented in the paper:
@@ -78,10 +97,8 @@ If you use this code or methodology in your research, please cite our paper:
   year    = {2024},          % TODO: Update with publication year
   volume  = {XX},
   pages   = {XX--XX}
-}
-```
+}```
 
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-2.  **Open `analysis.ipynb`** and run the cells in order from top to bottom.
