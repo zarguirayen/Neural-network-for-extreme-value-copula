@@ -56,5 +56,32 @@ The entire analysis is contained within the `analysis.ipynb` Jupyter Notebook.
     ```bash
     jupyter notebook
     ```
+## Reproducing the Results
 
+To reproduce the results presented in the paper:
+
+1.  **Simulations:** Simply run the cells in the "Simulation Study" section of `analysis.ipynb`. The script will generate the data, run the simulations, save the results to a CSV file in the `results/` directory, and generate the summary plots.
+
+2.  **Real-Data Application:**
+    - Download the SWI dataset from Météo-France and place the `.csv` files into a folder named `SWI_Package_1969-2024` in the root of the project directory.
+    - Run the cells in the "Application to Real-World Data" section of `analysis.ipynb`.
+
+## Citing this Work
+
+If you use this code or methodology in your research, please cite our paper:
+
+```bibtex
+@article{Lopez_PickandsNN_2024,
+  title   = {Estimation of Pickands Functions for Extreme-Value Copulas via Neural Networks: A Comparative Study on Gumbel, Galambos and Tawn},
+  author  = {Lopez, Olivier},
+  journal = {Journal Name}, % TODO: Update with journal name
+  year    = {2024},          % TODO: Update with publication year
+  volume  = {XX},
+  pages   = {XX--XX}
+}
+```
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 2.  **Open `analysis.ipynb`** and run the cells in order from top to bottom.
