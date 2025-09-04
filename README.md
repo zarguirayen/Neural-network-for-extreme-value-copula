@@ -84,6 +84,10 @@ The repository is organized as follows to ensure clarity and reproducibility:
 │
 └── README.md                  # This file, providing an overview of the project.
 ```
+- **`analysis.ipynb`**: This is the central file of the project. It contains all the Python code for the simulations, the real-data application, and generates all the figures and tables presented in the paper.
+- **`SWI_Package_1969-2024/`**: This folder is intended to hold the raw `.csv` files from Météo-France. As it contains large data files, it is recommended to add it to your `.gitignore` file.
+- **`figures/` and `results/`**: These folders are automatically created (if they don't exist) by the notebook to store the outputs, keeping the project organized.
+- **`requirements.txt`**: This file allows anyone to replicate the exact Python environment used for this analysis by running `pip install -r requirements.txt`.
 ## Reproducing the Results
 
 To reproduce the results presented in the paper:
