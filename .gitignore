@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Fichier .gitignore pour le projet d'analyse de copules
 
 # --- Données brutes et volumineuses ---
@@ -37,3 +38,6 @@ simulation_results_multicopula_adapted_lambda.csv
 # Fichiers de système d'exploitation
 .DS_Store
 Thumbs.db 
+=======
+
+>>>>>>> 852bd0ccb418cf4de394d87af6e81ab68b0963fc
