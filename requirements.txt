@@ -1,1 +1,30 @@
+# --- Core Libraries for Data Science and Deep Learning ---
+pandas==2.2.1
+numpy==1.26.4
+scipy==1.12.0
+torch==2.2.1
 
+# --- Visualization Libraries ---
+matplotlib==3.8.3
+seaborn==0.13.2
+
+# --- Geospatial Analysis ---
+# Geopandas has several important dependencies that must be installed
+geopandas==0.14.3
+fiona==1.9.5
+pyproj==3.6.1
+shapely==2.0.3
+
+# --- Convex Optimization ---
+# CVXPY requires solvers to be specified
+cvxpy==1.4.2
+osqp==0.6.3
+scs==3.2.4
+
+# --- Libraries for Specific Analyses (Finance / EVT) ---
+arch==5.7.0
+yfinance==0.2.37
+
+# --- Optional but Recommended ---
+# Used by pandas for reading/writing Excel files
+openpyxl==3.1.2
