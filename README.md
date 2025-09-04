@@ -1,8 +1,8 @@
 # Neural Network Estimation of Pickands Dependence Functions
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+```'link```
 
-This repository contains the complete Python code and analysis pipeline for the paper: **"Estimation of Pickands Functions for Extreme-Value Copulas via Neural Networks: A Comparative Study on Gumbel, Galambos and Tawn"**.
+This repository contains the complete Python code and analysis pipeline for the paper: **"Title of the paper"**.
 
 The project introduces and validates a novel semi-parametric methodology for estimating the Pickands dependence function of bivariate extreme value copulas using a purpose-built neural network.
 
@@ -90,14 +90,15 @@ To reproduce the results presented in the paper:
 If you use this code or methodology in your research, please cite our paper:
 
 ```bibtex
-@article{Lopez_PickandsNN_2024,
-  title   = {Estimation of Pickands Functions for Extreme-Value Copulas via Neural Networks: A Comparative Study on Gumbel, Galambos and Tawn},
+@article{Lopez_PickandsNN_2025,
+  title   = {Title of the paper},
   author  = {Lopez, Olivier},
-  journal = {Journal Name}, % TODO: Update with journal name
-  year    = {2024},          % TODO: Update with publication year
+  journal = {Journal Name}, 
+  year    = {2025},         
   volume  = {XX},
   pages   = {XX--XX}
-}```
+}
+```
 
 ## License
 
