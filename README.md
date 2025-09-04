@@ -66,15 +66,24 @@ The entire analysis is contained within the `analysis.ipynb` Jupyter Notebook.
 2.  **Open `analysis.ipynb`** and run the cells in order from top to bottom.
 
 ## Project Structure
-.
-├── SWI_Package_1969-2024/ # Folder for the raw Météo-France data (add to .gitignore)
-├── analysis.ipynb # The main Jupyter Notebook containing all code and analysis.
-├── figures/ # Directory where output plots are saved.
-├── results/ # Directory where simulation result CSV files are saved.
-├── requirements.txt # List of Python dependencies for easy installation.
-└── README.md # This file.
-code
-Code
+
+The repository is organized as follows to ensure clarity and reproducibility:
+
+```.
+├── SWI_Package_1969-2024/   # Data folder for raw Météo-France CSVs (should be added to .gitignore)
+│
+├── figures/                   # Directory for saved plots and figures from the analysis.
+│
+├── results/                   # Directory for simulation output files (e.g., CSVs).
+│
+├── analysis.ipynb             # The main Jupyter Notebook containing all code, analysis, and visualizations.
+│
+├── requirements.txt           # A list of all Python packages required to run the code.
+│
+├── .gitignore                 # Specifies files and folders for Git to ignore (e.g., data, virtual env).
+│
+└── README.md                  # This file, providing an overview of the project.
+```
 ## Reproducing the Results
 
 To reproduce the results presented in the paper:
