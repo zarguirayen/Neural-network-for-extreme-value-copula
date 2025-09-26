@@ -98,20 +98,9 @@ To reproduce the results presented in the paper:
     - Download the SWI dataset from Météo-France and place the `.csv` files into a folder named `SWI_Package_1969-2024` in the root of the project directory.
     - Run the cells in the "Application to Real-World Data" section of `analysis.ipynb`.
 
-## Citing this Work
 
-If you use this code or methodology in your research, please cite our paper:
 
-```bibtex
-@article{Lopez_PickandsNN_2025,
-  title   = {Title of the paper},
-  author  = {Lopez, Olivier},
-  journal = {Journal Name}, 
-  year    = {2025},         
-  volume  = {XX},
-  pages   = {XX--XX}
-}
-```
+
 
 ## License
 
