@@ -2,7 +2,7 @@
 
 ```'link```
 
-This repository contains the complete Python code and analysis pipeline for the paper: **"Title of the paper"**.
+This repository contains the complete Python code and analysis pipeline for the paper: **"Neural Estimation of Extreme-Value Copulas for Modeling Spatial Drought Dependence and Economic Impact"**.
 
 The project introduces and validates a novel semi-parametric methodology for estimating the Pickands dependence function of bivariate extreme value copulas using a purpose-built neural network.
 
