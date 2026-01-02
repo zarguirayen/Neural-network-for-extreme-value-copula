@@ -33,8 +33,8 @@ To run this project, follow these steps. It is highly recommended to use a virtu
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/your-repository-name.git
-    cd your-repository-name
+    git clone https://github.com/zarguirayen/Neural-network-for-extreme-value-copula.git
+    cd Neural-network-for-extreme-value-copula
     ```
 
 2.  **Create and activate a virtual environment:**
